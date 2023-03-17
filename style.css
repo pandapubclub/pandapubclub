@@ -6,7 +6,6 @@
 
 body{
     background-color: #000;
-    background-image:linear-gradient(to left, #fc84d81e,#5895ca18);
     margin: 0;
     font-family: 'Kanit', sans-serif;
     color: #fff;
@@ -20,7 +19,7 @@ h1{
 }
 
 .logo{
-    width: 300px;
+    width: 500px;
 }
 .container{
     max-width: 1000px;
@@ -56,7 +55,7 @@ h1{
 .description-content{
     position: relative;
     padding: 25px;
-    background: linear-gradient(to right, #ffffff1e, #ffffff10);
+    background: #ffffff3b;
     border-radius: 4px;
  
     margin-bottom: 50px;
@@ -185,7 +184,7 @@ a{
     justify-content: center;
     margin-top: 15px;
     padding: 15px;
-    background: #1a40d8;
+    background: #000000;
     font-size: 18px;
 }
 .boxone{
@@ -193,7 +192,7 @@ a{
     align-items: center;
     justify-content: center;
  
-    background: linear-gradient(to right, #ffffff1e, #ffffff10);
+    background: #ffffff3b;
 }
 .social-links{
     display: flex;
@@ -219,6 +218,38 @@ a{
 }
 
 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.language-select{
+    padding: 15px;
+    font-size: 16px;
+    background: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 10px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.swiper-pagination-bullet{
+
+    background-color: rgb(255, 255, 255) !important;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
 
 .faq-header {
     position: relative;
@@ -292,7 +323,7 @@ a{
 }
 @media screen and (max-width: 696px) {
     .logo{
-        width: 250px;
+        width: 500px;
     }
     h1{
         font-size: 48px;
