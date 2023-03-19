@@ -19,7 +19,7 @@ h1{
 }
 
 .logo{
-    width: 500px;
+    width: 350px;
 }
 .container{
     max-width: 1000px;
@@ -323,7 +323,7 @@ a{
 }
 @media screen and (max-width: 696px) {
     .logo{
-        width: 500px;
+        width: 300px;
     }
     h1{
         font-size: 48px;
